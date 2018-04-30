@@ -10,7 +10,7 @@ import { Ng4LoadingSpinnerService } from 'ng4-loading-spinner';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  public topImg : string= "../assets/world.jpg";
+  public topImg : string= "../../assets/world.jpg";
 
   constructor(public _route : ActivatedRoute, public router : Router, private worldHttpService : WorldHttpService , private spinnerService: Ng4LoadingSpinnerService) { }
 
